@@ -1,0 +1,1909 @@
+{
+  "id": "362d5aaf-9694-4234-958a-4fb8675b4dd3",
+  "version": "2.0",
+  "name": "ac2",
+  "url": "https://id.atlassian.com/login?application=trello&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3FreturnUrl%3D%26display%3D%26aaOnboarding%3D%26updateEmail%3D%26traceId%3D%26ssoVerified%3D%26createMember%3D",
+  "tests": [{
+    "id": "3bbfc3f5-a3f6-40e2-8b53-0b52bd009b24",
+    "name": "Teste 1",
+    "commands": [{
+      "id": "25f65322-44a5-4d60-bcaa-b0480c9a809e",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.atlassian.com/login?application=trello&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3Fdisplay%3DeyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%253D%253D&display=eyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%3D%3D",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "04149755-7c9d-474a-a74a-b2bdfa038854",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6905d8fb-6462-45ba-9f00-c1a53682114a",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "212032@facens.br"
+    }, {
+      "id": "ad0d7680-ec1c-4586-8db6-b17dc2cb49ff",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }, {
+    "id": "e684484d-4991-4490-8367-6ad94ccc2276",
+    "name": "Teste 2",
+    "commands": [{
+      "id": "05e7622d-d490-4e40-a0cc-030f08b500cb",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.atlassian.com/login?application=trello&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3Fdisplay%3DeyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%253D%253D&display=eyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%3D%3D",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "56513ff0-97d5-40f8-9676-67349f2adfd0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cd56f91f-ce03-4880-acd3-8993d5593d1f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-178ag6o:nth-child(1)",
+      "targets": [
+        ["css=.css-178ag6o:nth-child(1)", "css:finder"],
+        ["xpath=//button[@id='login-submit']/span", "xpath:idRelative"],
+        ["xpath=//form/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Continuar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "919438c0-0fae-4b0d-aa9c-cc4b8debf3d4",
+    "name": "Teste 3",
+    "commands": [{
+      "id": "d5f3d8f7-5ae1-41ae-8e11-80f34fe51d49",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.atlassian.com/login?application=trello&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3Fdisplay%3DeyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%253D%253D&display=eyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%3D%3D",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e967b7ce-79f1-478b-9f7d-06be19b463ac",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "872a5ae1-ac19-44a0-8fa3-7e6438730676",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "212032facens.br"
+    }, {
+      "id": "b878591a-9a6f-4d16-8d81-2aeca67b3097",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }, {
+    "id": "3946f3bb-1575-4a6e-bc8c-97bd6122453d",
+    "name": "Teste 4",
+    "commands": [{
+      "id": "d1c5d754-3f23-40b0-a0de-7f00d7b34938",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.atlassian.com/login?application=trello&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3Fdisplay%3DeyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%253D%253D&display=eyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%3D%3D",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "47ace7b0-26fc-4859-9001-945a0ae736d2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4a1cd932-249d-448a-bc17-33bc24e9cc09",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-178ag6o:nth-child(1)",
+      "targets": [
+        ["css=.css-178ag6o:nth-child(1)", "css:finder"],
+        ["xpath=//button[@id='login-submit']/span", "xpath:idRelative"],
+        ["xpath=//form/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Continuar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b0a1881-380b-48f6-a5bc-f0ca4b67f552",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "212032 @facens.br"
+    }]
+  }, {
+    "id": "46174fe2-42c6-4286-a450-6c957a916ee6",
+    "name": "Teste 5",
+    "commands": [{
+      "id": "5fa6fc19-d757-4160-b384-9de434a774b2",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.atlassian.com/login?application=trello&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3Fdisplay%3DeyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%253D%253D&display=eyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%3D%3D",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "921403a9-7162-46e8-9556-8592b67211e8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4a4b288c-34be-4dd8-8167-1a861524ee59",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "212032@faacens.br"
+    }, {
+      "id": "c0e379fb-0add-4c46-a0a7-a32dbe7132ae",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }, {
+    "id": "99b0d33a-26ce-4f28-a369-4c0e11fbbaf4",
+    "name": "Teste 6",
+    "commands": [{
+      "id": "27d120cc-9746-48d4-a19f-f900c9ae6bde",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.atlassian.com/login?application=trello&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3Fdisplay%3DeyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%253D%253D&display=eyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%3D%3D",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "489381c1-2b9e-40c9-9f05-875de5a02019",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "936db45c-4a06-4955-a82c-d13aec2e02ac",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "212032@xn--fcens-xqa.br"
+    }, {
+      "id": "cf0343d9-8584-4abf-b79c-45e26789270d",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }, {
+    "id": "d40a3359-e18a-4f5c-b020-d2bbf108b79c",
+    "name": "Teste 7",
+    "commands": [{
+      "id": "a601b531-b19f-49e8-8968-86ca8bb0a8ac",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.atlassian.com/login?application=trello&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3Fdisplay%3DeyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%253D%253D&display=eyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%3D%3D",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ff3216c9-3875-4946-8b8d-a9a20b533da4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4897215e-5b24-4775-b51b-0f2ce7550cf4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-178ag6o:nth-child(1)",
+      "targets": [
+        ["css=.css-178ag6o:nth-child(1)", "css:finder"],
+        ["xpath=//button[@id='login-submit']/span", "xpath:idRelative"],
+        ["xpath=//form/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Continuar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "139c52a0-1540-46b3-88f4-4717b4bb4457",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "212032@FAcens.br"
+    }, {
+      "id": "f58f9a57-d92d-423e-ac8c-940eb3d0d322",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=login-submit",
+      "targets": [
+        ["id=login-submit", "id"],
+        ["css=#login-submit", "css:finder"],
+        ["xpath=//button[@id='login-submit']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continuar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8597261e-7722-4219-be1f-3129f9384eb6",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=login-submit",
+      "targets": [
+        ["id=login-submit", "id"],
+        ["css=#login-submit", "css:finder"],
+        ["xpath=//button[@id='login-submit']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Entrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3c87457f-efe8-4407-ac89-ba64906c1175",
+    "name": "Teste 8",
+    "commands": [{
+      "id": "46bbbb23-d7bc-45ed-bb28-cdf8dca5a008",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.atlassian.com/login?application=trello&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3Fdisplay%3DeyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%253D%253D&display=eyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%3D%3D",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "407a00d6-42a5-4f58-8d82-27c4fcca0c15",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b6aa9208-6f97-4eec-b721-f153ab862d95",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=microsoft-auth-button",
+      "targets": [
+        ["id=microsoft-auth-button", "id"],
+        ["css=#microsoft-auth-button", "css:finder"],
+        ["xpath=//button[@id='microsoft-auth-button']", "xpath:attributes"],
+        ["xpath=//div[@id='WhiteboxContainer']/section/div[3]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Microsoft')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ffd2882c-ed10-4f71-9d91-14a60f2c037e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=microsoft-auth-button",
+      "targets": [
+        ["id=microsoft-auth-button", "id"],
+        ["css=#microsoft-auth-button", "css:finder"],
+        ["xpath=//button[@id='microsoft-auth-button']", "xpath:attributes"],
+        ["xpath=//div[@id='WhiteboxContainer']/section/div[3]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Microsoft')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "53857c42-308c-44d6-9cca-edfbf04aca0d",
+      "comment": "",
+      "command": "click",
+      "target": "id=google-auth-button",
+      "targets": [
+        ["id=google-auth-button", "id"],
+        ["css=#google-auth-button", "css:finder"],
+        ["xpath=//button[@id='google-auth-button']", "xpath:attributes"],
+        ["xpath=//div[@id='WhiteboxContainer']/section/div[3]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Google')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "910cfbfa-cbdd-4214-927c-e549f4b789f0",
+    "name": "Teste 9",
+    "commands": [{
+      "id": "41781246-7b3e-4c99-98e1-68bc0527d3c3",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.atlassian.com/login?application=trello&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3Fdisplay%3DeyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%253D%253D&display=eyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%3D%3D",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f24f8075-7663-4e6d-8aa1-2bb6fe118b47",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "76dac845-e951-4ba7-a26d-8af499d8a47c",
+      "comment": "",
+      "command": "click",
+      "target": "id=microsoft-auth-button",
+      "targets": [
+        ["id=microsoft-auth-button", "id"],
+        ["css=#microsoft-auth-button", "css:finder"],
+        ["xpath=//button[@id='microsoft-auth-button']", "xpath:attributes"],
+        ["xpath=//div[@id='WhiteboxContainer']/section/div[3]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Microsoft')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a038cdef-807a-4f3f-b3b4-62736a057844",
+    "name": "Teste 10",
+    "commands": [{
+      "id": "e6027d32-e712-4bf6-913d-9dcefa1a95bb",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.atlassian.com/login?application=trello&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3Fdisplay%3DeyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%253D%253D&display=eyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%3D%3D",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8da221c3-9c20-4dd5-9f62-650ca944c6cb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6c9a50d4-847a-4196-8156-7ca9402a215c",
+      "comment": "",
+      "command": "click",
+      "target": "id=apple-auth-button",
+      "targets": [
+        ["id=apple-auth-button", "id"],
+        ["css=#apple-auth-button", "css:finder"],
+        ["xpath=//button[@id='apple-auth-button']", "xpath:attributes"],
+        ["xpath=//div[@id='WhiteboxContainer']/section/div[3]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Apple')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cdf29bab-d9ca-489d-a908-ddab6824ec64",
+      "comment": "",
+      "command": "type",
+      "target": "id=account_name_text_field",
+      "targets": [
+        ["id=account_name_text_field", "id"],
+        ["css=#account_name_text_field", "css:finder"],
+        ["xpath=//input[@id='account_name_text_field']", "xpath:attributes"],
+        ["xpath=//div[@id='sign_in_form']/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "jv.candini@hotmail.com"
+    }]
+  }, {
+    "id": "66c1d6a9-df69-4253-b28d-04fe85ddaebb",
+    "name": "Teste 11",
+    "commands": [{
+      "id": "74562bb2-210c-4dbf-928a-38bd2668fa68",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.atlassian.com/login?application=trello&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3Fdisplay%3DeyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%253D%253D&display=eyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%3D%3D",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3d219b1c-5288-4cef-bc46-9e2e6fa1bc65",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b8f21c6e-2e7d-406c-821e-c2eca0daf46d",
+      "comment": "",
+      "command": "click",
+      "target": "id=slack-auth-button",
+      "targets": [
+        ["id=slack-auth-button", "id"],
+        ["css=#slack-auth-button", "css:finder"],
+        ["xpath=//button[@id='slack-auth-button']", "xpath:attributes"],
+        ["xpath=//div[@id='WhiteboxContainer']/section/div[3]/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Slack')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "1cf45a33-7fd4-471a-a6a5-ec3d7db95dc3",
+    "name": "Teste 12",
+    "commands": [{
+      "id": "8044f9ca-5f24-4e87-abc7-37ff0e17cc54",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.atlassian.com/login?application=trello&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3Fdisplay%3DeyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%253D%253D&display=eyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%3D%3D",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2fab19e6-76b8-4533-8d67-17ddc003d232",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dfe49fa6-fd4e-4053-891e-ec5441680eb8",
+      "comment": "",
+      "command": "click",
+      "target": "id=resetPassword",
+      "targets": [
+        ["id=resetPassword", "id"],
+        ["linkText=Não consegue entrar?", "linkText"],
+        ["css=#resetPassword", "css:finder"],
+        ["xpath=//a[contains(text(),'Não consegue entrar?')]", "xpath:link"],
+        ["xpath=//a[@id='resetPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='WhiteboxContainer']/section/div[4]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/login/resetpassword?application=trello&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3Fdisplay%3DeyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%253D%253D&display=eyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%3D%3D')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Não consegue entrar?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c0853b91-e759-4e33-a86e-d6dae3dcbbe6",
+    "name": "Teste 13",
+    "commands": [{
+      "id": "b8566d22-ea49-4a52-9eb4-3bafc58e742a",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.atlassian.com/login?application=trello&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3Fdisplay%3DeyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%253D%253D&display=eyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%3D%3D",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb0610d8-0ba4-4c97-af97-2fbbf9d23ec0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f44d9f01-d3f1-4a59-9479-4d19657e7d34",
+      "comment": "",
+      "command": "click",
+      "target": "id=signup",
+      "targets": [
+        ["id=signup", "id"],
+        ["linkText=Criar uma conta", "linkText"],
+        ["css=#signup", "css:finder"],
+        ["xpath=//a[contains(text(),'Criar uma conta')]", "xpath:link"],
+        ["xpath=//a[@id='signup']", "xpath:attributes"],
+        ["xpath=//div[@id='WhiteboxContainer']/section/div[4]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/signup?application=trello&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3Fdisplay%3DeyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%253D%253D&display=eyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%3D%3D')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Criar uma conta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a4e60101-f472-4d0e-ac19-af3a1f2792e3",
+    "name": "Teste 14",
+    "commands": [{
+      "id": "607cd9d7-709e-4b5f-967a-8a1a62ff072c",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.atlassian.com/login?application=trello&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3Fdisplay%3DeyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%253D%253D&display=eyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%3D%3D",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "729fdbba-b333-4ae4-a617-e67174e10bd4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fba14d1a-16a8-4ae7-b43d-6e7fdef7945e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-178ag6o:nth-child(1)",
+      "targets": [
+        ["css=.css-178ag6o:nth-child(1)", "css:finder"],
+        ["xpath=//button[@id='login-submit']/span", "xpath:idRelative"],
+        ["xpath=//form/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Continuar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "298f9d43-5993-4033-9689-cf2eb903af6a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.css-178ag6o:nth-child(1)",
+      "targets": [
+        ["css=.css-178ag6o:nth-child(1)", "css:finder"],
+        ["xpath=//button[@id='login-submit']/span", "xpath:idRelative"],
+        ["xpath=//form/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Continuar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "66e61cb0-03b6-4429-aeec-cd18e3daed52",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "212032@facens.br"
+    }, {
+      "id": "1ead1c1b-faca-4bc5-90ab-277307eb31eb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-qj62pw",
+      "targets": [
+        ["css=.css-qj62pw", "css:finder"],
+        ["xpath=//div[@id='WhiteboxContainer']/section", "xpath:idRelative"],
+        ["xpath=//section", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e87fdd2-8df9-4013-b031-ef719726c77c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1spmf3f > .css-snhnyn",
+      "targets": [
+        ["css=.css-1spmf3f > .css-snhnyn", "css:finder"],
+        ["xpath=//form[@id='form-login']/div/div[2]/div/div/div/div/div/button/span/span", "xpath:idRelative"],
+        ["xpath=//button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0baae5ed-b644-40bd-b16e-d1f8a3812b4c",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login']/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c8f8c5c-bfc4-4588-9069-16f1382eb588",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-178ag6o:nth-child(1)",
+      "targets": [
+        ["css=.css-178ag6o:nth-child(1)", "css:finder"],
+        ["xpath=//button[@id='login-submit']/span", "xpath:idRelative"],
+        ["xpath=//form/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Entrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ece08792-b824-4038-aaa8-3d1a759805ac",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.css-178ag6o:nth-child(1)",
+      "targets": [
+        ["css=.css-178ag6o:nth-child(1)", "css:finder"],
+        ["xpath=//button[@id='login-submit']/span", "xpath:idRelative"],
+        ["xpath=//form/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Entrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad66a86b-35bc-4031-a6a1-fd37d54addab",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.css-15scvy0",
+      "targets": [
+        ["css=.css-15scvy0", "css:finder"],
+        ["xpath=//button[@id='login-submit']/span", "xpath:idRelative"],
+        ["xpath=//form/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Entrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f30e5ed3-2915-48db-9472-6d8799a9b9cb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.boards-page-board-section-header-options-item:nth-child(1)",
+      "targets": [
+        ["css=.boards-page-board-section-header-options-item:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='content']/div/div[2]/div/div/div/div/div/div/div/div[2]/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/w/areadetrabalhodouser45264016')])[7]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d14ef221-6877-4e18-9cb1-69e64d33a92b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.boards-page-board-section-header-options-item:nth-child(1)",
+      "targets": [
+        ["css=.boards-page-board-section-header-options-item:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='content']/div/div[2]/div/div/div/div/div/div/div/div[2]/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/w/areadetrabalhodouser45264016')])[7]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "1c7d0c67-43c6-47af-bb05-648dc9fa759e",
+    "name": "Teste 15",
+    "commands": [{
+      "id": "5432723d-45a6-48e2-9656-ec8c46b638bc",
+      "comment": "",
+      "command": "open",
+      "target": "https://trello.com/home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "85fe8d70-1291-4eec-859e-4cb19db657a7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c885b7ce-95c9-48cf-8c09-e14ee4127765",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Entrar",
+      "targets": [
+        ["linkText=Entrar", "linkText"],
+        ["css=.Buttonsstyles__Button-sc-1jwidxo-0:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Entrar')]", "xpath:link"],
+        ["xpath=//div[@id='BXP-APP']/header/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://id.atlassian.com/login?application=trello&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3Fdisplay%3DeyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%253D%253D&display=eyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%3D%3D')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Entrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "728c6fa2-a55a-49e0-8ec0-5ee8bed99221",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "212032@facens.br"
+    }, {
+      "id": "beb49492-bb15-4068-a72a-6500ac356883",
+      "comment": "",
+      "command": "click",
+      "target": "css=.google-login",
+      "targets": [
+        ["css=.google-login", "css:finder"],
+        ["xpath=//div[@id='WhiteboxContainer']/section/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8072f459-1f8a-4f49-9027-a34ff05b34c1",
+      "comment": "",
+      "command": "click",
+      "target": "id=google-auth-button",
+      "targets": [
+        ["id=google-auth-button", "id"],
+        ["css=#google-auth-button", "css:finder"],
+        ["xpath=//button[@id='google-auth-button']", "xpath:attributes"],
+        ["xpath=//div[@id='WhiteboxContainer']/section/div[3]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Google')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ab72113-2540-47d8-839f-c11c956873cb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.yAlK0b",
+      "targets": [
+        ["css=.yAlK0b", "css:finder"],
+        ["xpath=//body[@id='yDmH0d']/div/div/div[2]/div/div/div[2]/div/div/div/form/span/section/div/div/div/div/ul/li/div/div/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "bc5e6f62-3ceb-4d1c-930f-37a768570ded",
+    "name": "Teste 16",
+    "commands": [{
+      "id": "23b48fcf-d3e9-4829-b2f0-a36eafd0b094",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.atlassian.com/login?application=trello&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3Fdisplay%3DeyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%253D%253D&display=eyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%3D%3D",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d4eebd6-46dc-4350-9a30-2786398a371c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "456e2a82-156d-4f4a-b114-494b9f5829c4",
+      "comment": "",
+      "command": "click",
+      "target": "id=microsoft-auth-button",
+      "targets": [
+        ["id=microsoft-auth-button", "id"],
+        ["css=#microsoft-auth-button", "css:finder"],
+        ["xpath=//button[@id='microsoft-auth-button']", "xpath:attributes"],
+        ["xpath=//div[@id='WhiteboxContainer']/section/div[3]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Microsoft')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b0fa75b-ff3c-4500-8c03-d0a8da3c5aaf",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(2) > small",
+      "targets": [
+        ["css=div:nth-child(2) > small", "css:finder"],
+        ["xpath=//div[@id='tilesHolder']/div/div/div/div/div[2]/div[2]/small", "xpath:idRelative"],
+        ["xpath=//small", "xpath:position"],
+        ["xpath=//small[contains(.,'212032@facens.br')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a26f6562-bf58-469d-85a0-7944626e6db9",
+    "name": "Teste 17",
+    "commands": [{
+      "id": "265ed82d-810f-4040-a786-3ffea1d169ed",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.atlassian.com/login?application=trello&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3Fdisplay%3DeyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%253D%253D&display=eyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%3D%3D",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ac383516-095c-4bbf-b209-d9607dd22519",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ba9daf54-746c-4dbd-97f2-8e83d74856b4",
+      "comment": "",
+      "command": "click",
+      "target": "id=apple-auth-button",
+      "targets": [
+        ["id=apple-auth-button", "id"],
+        ["css=#apple-auth-button", "css:finder"],
+        ["xpath=//button[@id='apple-auth-button']", "xpath:attributes"],
+        ["xpath=//div[@id='WhiteboxContainer']/section/div[3]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Apple')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "baa60d1a-a261-45b0-a36c-a6c82a7adcb1",
+      "comment": "",
+      "command": "type",
+      "target": "id=account_name_text_field",
+      "targets": [
+        ["id=account_name_text_field", "id"],
+        ["css=#account_name_text_field", "css:finder"],
+        ["xpath=//input[@id='account_name_text_field']", "xpath:attributes"],
+        ["xpath=//div[@id='sign_in_form']/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "jv.candini@hotmail.com"
+    }, {
+      "id": "770b64e8-dbf4-4c12-bf47-5e52f356b28a",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "id=account_name_text_field",
+      "targets": [
+        ["id=account_name_text_field", "id"],
+        ["css=#account_name_text_field", "css:finder"],
+        ["xpath=//input[@id='account_name_text_field']", "xpath:attributes"],
+        ["xpath=//div[@id='sign_in_form']/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b83a723-0b77-4a9a-8cf4-5b1f16573b88",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.shared-icon",
+      "targets": [
+        ["css=.shared-icon", "css:finder"],
+        ["xpath=//button[@id='sign-in']/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d8ff4ac-06e3-430a-94bf-6e0332afc179",
+      "comment": "",
+      "command": "click",
+      "target": "css=.swp-enable",
+      "targets": [
+        ["css=.swp-enable", "css:finder"],
+        ["xpath=//div[@id='signin']/div", "xpath:idRelative"],
+        ["xpath=//sign-in/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "407a86b1-e65e-4273-b654-d57e2b9cdca0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.shared-icon",
+      "targets": [
+        ["css=.shared-icon", "css:finder"],
+        ["xpath=//button[@id='sign-in']/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "86b6d4aa-0ce2-4808-b522-9c720a44b43d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.shared-icon",
+      "targets": [
+        ["css=.shared-icon", "css:finder"],
+        ["xpath=//button[@id='sign-in']/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c3ad48fb-9aa9-4c59-8927-0353868ca6e8",
+    "name": "Teste  18",
+    "commands": [{
+      "id": "4da6cbdb-619b-4c62-b1de-45116123a706",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.atlassian.com/login?application=trello&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3Fdisplay%3DeyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%253D%253D&display=eyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%3D%3D",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b4746775-6985-4909-a734-d359e787719b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "03f8377f-67ea-4446-a9dc-983f949e68f7",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "212032@facens.br"
+    }, {
+      "id": "2c6224c2-ccaa-497e-9eb5-fcbd68415c72",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-qj62pw",
+      "targets": [
+        ["css=.css-qj62pw", "css:finder"],
+        ["xpath=//div[@id='WhiteboxContainer']/section", "xpath:idRelative"],
+        ["xpath=//section", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "11ba437e-4bef-43ab-8323-f76c984f1ef3",
+      "comment": "",
+      "command": "click",
+      "target": "id=slack-auth-button",
+      "targets": [
+        ["id=slack-auth-button", "id"],
+        ["css=#slack-auth-button", "css:finder"],
+        ["xpath=//button[@id='slack-auth-button']", "xpath:attributes"],
+        ["xpath=//div[@id='WhiteboxContainer']/section/div[3]/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Slack')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "19fbc802-0859-4ba1-b2be-1c7fe5e80690",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c-team_picker__user_info",
+      "targets": [
+        ["css=.c-team_picker__user_info", "css:finder"],
+        ["xpath=//div[@id='team-picker_button-option']/div/div[2]/span[2]", "xpath:idRelative"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'jv.candini@hotmail.com•instituto-gente-grupo.slack.com')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad958ae6-0369-4f94-92bc-d406e8c73114",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c-base_entity--medium > .c-base_entity__text-contents",
+      "targets": [
+        ["css=.c-base_entity--medium > .c-base_entity__text-contents", "css:finder"],
+        ["xpath=//div[@id='team-picker_option_2']/span/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/span/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "189783ae-a2d4-4230-bd0d-3a13f8ee1f75",
+    "name": "Teste 19",
+    "commands": [{
+      "id": "62bfa8b6-65a9-4572-8c19-8902424fe7cf",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.atlassian.com/login?application=trello&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3Fdisplay%3DeyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%253D%253D&display=eyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%3D%3D",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "173f8ecc-666e-42ad-a1e9-6825a7747788",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3ddf6266-2242-4337-9e67-5b789559734b",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "379f347d-00b8-4232-a079-dd4c1b33c564",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "212032@facens.br"
+    }, {
+      "id": "7ab11678-b471-4b3f-b13e-ad4d926bda1b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-178ag6o:nth-child(1)",
+      "targets": [
+        ["css=.css-178ag6o:nth-child(1)", "css:finder"],
+        ["xpath=//button[@id='login-submit']/span", "xpath:idRelative"],
+        ["xpath=//form/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Continuar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "75a257bd-e67b-43d6-ab9e-13e159f3856b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=login-submit",
+      "targets": [
+        ["id=login-submit", "id"],
+        ["css=#login-submit", "css:finder"],
+        ["xpath=//button[@id='login-submit']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continuar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5dd8b460-dac0-42cc-9150-15c79e7f500b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=login-submit",
+      "targets": [
+        ["id=login-submit", "id"],
+        ["css=#login-submit", "css:finder"],
+        ["xpath=//button[@id='login-submit']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Entrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "2539b4b8-78b4-4a93-b25d-0a09c6169ffb",
+    "name": "Teste 20",
+    "commands": [{
+      "id": "e4b4f96e-64b8-484a-87f6-d5fff0ad9f62",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.atlassian.com/login?application=trello&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3Fdisplay%3DeyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%253D%253D&display=eyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%3D%3D",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "be39ceff-e7c8-4b9a-b1e2-67a5dddbb927",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c5d5fa60-edb4-4f97-bf7c-f0f0dd99d050",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-178ag6o:nth-child(1)",
+      "targets": [
+        ["css=.css-178ag6o:nth-child(1)", "css:finder"],
+        ["xpath=//button[@id='login-submit']/span", "xpath:idRelative"],
+        ["xpath=//form/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Continuar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b64e618c-b055-4ff3-a506-d20302ca7004",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "212032@facens.br"
+    }, {
+      "id": "5ec459f4-7668-496c-87aa-2580c780af70",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=login-submit",
+      "targets": [
+        ["id=login-submit", "id"],
+        ["css=#login-submit", "css:finder"],
+        ["xpath=//button[@id='login-submit']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continuar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac8c0d6d-fbae-4ca8-84cc-ade09c16e907",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=login-submit",
+      "targets": [
+        ["id=login-submit", "id"],
+        ["css=#login-submit", "css:finder"],
+        ["xpath=//button[@id='login-submit']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Entrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "90d947c5-c209-4cfe-9f9d-e5aa7d8bf235",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1tdtezu > .css-snhnyn",
+      "targets": [
+        ["css=.css-1tdtezu > .css-snhnyn", "css:finder"],
+        ["xpath=//form[@id='form-login']/div/div/div/span[2]/span", "xpath:idRelative"],
+        ["xpath=//span[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "680a327f-dc21-4ae9-a2ca-ae57c475624d",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=WhiteboxContainer",
+      "targets": [
+        ["id=WhiteboxContainer", "id"],
+        ["css=#WhiteboxContainer", "css:finder"],
+        ["xpath=//div[@id='WhiteboxContainer']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div", "xpath:position"]
+      ],
+      "value": "503,139"
+    }, {
+      "id": "69c1d232-011d-4cd2-bb08-83e6a142609c",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=WhiteboxContainer",
+      "targets": [
+        ["id=WhiteboxContainer", "id"],
+        ["css=#WhiteboxContainer", "css:finder"],
+        ["xpath=//div[@id='WhiteboxContainer']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div", "xpath:position"]
+      ],
+      "value": "503,139"
+    }, {
+      "id": "db0ace56-ab04-4e24-9976-7886b8412b9a",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=WhiteboxContainer",
+      "targets": [
+        ["id=WhiteboxContainer", "id"],
+        ["css=#WhiteboxContainer", "css:finder"],
+        ["xpath=//div[@id='WhiteboxContainer']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div", "xpath:position"]
+      ],
+      "value": "503,139"
+    }, {
+      "id": "34d3c434-8cc7-4775-838c-f227f4025144",
+      "comment": "",
+      "command": "click",
+      "target": "id=WhiteboxContainer",
+      "targets": [
+        ["id=WhiteboxContainer", "id"],
+        ["css=#WhiteboxContainer", "css:finder"],
+        ["xpath=//div[@id='WhiteboxContainer']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1456aee8-1d56-4925-a8e4-1650eb223117",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-178ag6o:nth-child(1)",
+      "targets": [
+        ["css=.css-178ag6o:nth-child(1)", "css:finder"],
+        ["xpath=//button[@id='login-submit']/span", "xpath:idRelative"],
+        ["xpath=//form/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Continuar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "41cc4636-b2f7-431a-a510-9a2217342e95",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f6832256-2fc6-4046-810e-f89673211c95",
+    "name": "Teste 21",
+    "commands": [{
+      "id": "b722f3ad-80e8-49f5-b4a8-47f458c3d9f0",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.atlassian.com/login?application=trello&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3Fdisplay%3DeyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%253D%253D&display=eyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%3D%3D",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "265c9a07-06a3-49b5-bf95-9c4931f51554",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "62fb0e2b-5f9b-4e39-a894-ac37e9eb99e2",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "212032@facens.br"
+    }, {
+      "id": "9f7b4da5-d98b-4d35-89bb-40db5d57c0c5",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "96e4cbe7-918a-4696-bf5c-0f3cdb40fbe8",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login']/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "hahaha"
+    }, {
+      "id": "5ed7ea41-6154-4416-a7b6-d95b198bf4a1",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login']/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }, {
+    "id": "961ff06f-e601-4bd8-bd68-09dccd1c98bb",
+    "name": "Teste 22",
+    "commands": [{
+      "id": "59c64d71-e924-46f3-95ce-9e2ca73a0653",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.atlassian.com/login?application=trello&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3Fdisplay%3DeyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%253D%253D&display=eyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%3D%3D",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3f8e56dd-c117-4aee-87f1-988a616b8ab0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0dbac255-af2d-4900-8b30-7a0d04df920a",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "kakakakkakakakakakkakakakakakakakkakakakakakakakakkakakakakakakakakakakakkakakakakakakakakakakkakakakakakakakakakakakakakakakakakakakkakakakakakakakakakakakakakakakakakakakakakakakakakakakakakkakakakakakakakakakakakakakakakakakkakakakakakakakakakakakakakakakakakaaakakakkaakkakakakakakakakakakakakakakakakakakakakakakakakakakakaakakakakak"
+    }]
+  }, {
+    "id": "f40b6b13-23c9-485a-a212-cfae73788e80",
+    "name": "Teste 23",
+    "commands": [{
+      "id": "e8c1dc63-58dc-4fbc-afd2-18676580fc0b",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.atlassian.com/login?application=trello&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3Fdisplay%3DeyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%253D%253D&display=eyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%3D%3D",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dfd77d22-6224-43d5-af13-080a5075f914",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4b69a587-0f2e-4446-9416-254644d1109f",
+      "comment": "",
+      "command": "click",
+      "target": "id=resetPassword",
+      "targets": [
+        ["id=resetPassword", "id"],
+        ["linkText=Não consegue entrar?", "linkText"],
+        ["css=#resetPassword", "css:finder"],
+        ["xpath=//a[contains(text(),'Não consegue entrar?')]", "xpath:link"],
+        ["xpath=//a[@id='resetPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='WhiteboxContainer']/section/div[4]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/login/resetpassword?application=trello&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3Fdisplay%3DeyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%253D%253D&display=eyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%3D%3D')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Não consegue entrar?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba396fc2-9b8c-495e-806a-eda44b2508e7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-178ag6o",
+      "targets": [
+        ["css=.css-178ag6o", "css:finder"],
+        ["xpath=//button[@id='reset-password-email-submit']/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Enviar link de recuperação')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4b55e82-76df-4576-acca-f19f8273a997",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='form-reset-password-email']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "212032@facens.br"
+    }]
+  }, {
+    "id": "cb7c5f8e-ce4a-49d5-b750-73ecd0a20d54",
+    "name": "Teste 24",
+    "commands": [{
+      "id": "12539e68-29af-46cf-b605-742dcd210bf7",
+      "comment": "",
+      "command": "open",
+      "target": "https://outlook.office.com/mail/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3efb214f-73e3-461d-b521-dea6379aa3a3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0f56defb-1f29-4cfa-a0a9-c47dd59faeaa",
+      "comment": "",
+      "command": "click",
+      "target": "css=#AQAAAE4m1kABAAACLAjGygAAAAA\\= .IjzWp",
+      "targets": [
+        ["css=#AQAAAE4m1kABAAACLAjGygAAAAA\\= .IjzWp", "css:finder"],
+        ["xpath=//div[@id='AQAAAE4m1kABAAACLAjGygAAAAA=']/div/div/div[2]/div[2]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7010ada0-a5e1-4c83-957d-390d67de8421",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bc8c9e8a-9a34-470f-80ca-b28c42564300",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Definir senha",
+      "targets": [
+        ["linkText=Definir senha", "linkText"],
+        ["css=div:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Definir senha')]", "xpath:link"],
+        ["xpath=//div[@id='UniqueMessageBody']/div/div/div/table/tbody/tr/td/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://id.atlassian.com/login/changepassword?display=eyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%3D%3D&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3Fdisplay%3DeyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%253D%253D&application=trello&signature=eyJraWQiOiJtaWNyb3MvYWlkLWFjY291bnQvcDYwZDlpZGFwNDIwcmtqZSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiIyMTIwMzJAZmFjZW5zLmJyIiwiYXVkIjoibGluay1zaWduYXR1cmUtdmFsaWRhdG9yIiwibmJmIjoxNzE1MTEwOTY1LCJzY29wZSI6ImNoYW5nZVBhc3N3b3JkIiwiaXNzIjoibWljcm9zL2FpZC1hY2NvdW50IiwiZXhwIjoxNzE1MTE0NTY1LCJ1c2VySWQiOiI3MTIwMjA6M2QxZTRmNjEtZDk4NC00MmJmLTg4NzEtYTBkMGJlNTBhZTIyIiwiaWF0IjoxNzE1MTEwOTY1LCJqdGkiOiI0N2M5NTY3Zi02NDljLTRjOWEtOTE1MS0xODVjMjExZDg5OTMifQ.sSH35BbyJe3FIeH8OjFy9-J48uYBAwQoCCGPI8ZQ1LnXrFAWZtWdHpm5G_KNelIalOpihl65W59fbA1_bkhznCEeJWz2DL-kQj7kJnuHc48TSqgsqpQiGTlZ3JIf-hsCavxL8sl9rQvVZe2oKPBUqs0BhY5nM6-31rt1NOnmwhHhkbWeAU1St7dwAmxMi-ZrKqlZyO2hPAQ1zFu8M44ckqk_hjQCEgrRzPID2s2mO9Pr8MJLxDEZ3bVRSHS-pYAUqZPlSUcafgX5lZPI2XtTObl7YrxeXw3S4WzxFQrNvE3YGrDvYuAcuKiAeVQAXZxnPrfE8HXlyGKNIVaYPEztbQ&source=9607060d97aac19f42cc5c59b0ec4a1d')]", "xpath:href"],
+        ["xpath=//td/div/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Definir senha')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "42e44e2f-b536-4ebb-b511-b9cfeb7cd331",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Definir senha",
+      "targets": [
+        ["linkText=Definir senha", "linkText"],
+        ["css=div:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Definir senha')]", "xpath:link"],
+        ["xpath=//div[@id='UniqueMessageBody']/div/div/div/table/tbody/tr/td/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://id.atlassian.com/login/changepassword?display=eyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%3D%3D&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3Fdisplay%3DeyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%253D%253D&application=trello&signature=eyJraWQiOiJtaWNyb3MvYWlkLWFjY291bnQvcDYwZDlpZGFwNDIwcmtqZSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiIyMTIwMzJAZmFjZW5zLmJyIiwiYXVkIjoibGluay1zaWduYXR1cmUtdmFsaWRhdG9yIiwibmJmIjoxNzE1MTEwOTY1LCJzY29wZSI6ImNoYW5nZVBhc3N3b3JkIiwiaXNzIjoibWljcm9zL2FpZC1hY2NvdW50IiwiZXhwIjoxNzE1MTE0NTY1LCJ1c2VySWQiOiI3MTIwMjA6M2QxZTRmNjEtZDk4NC00MmJmLTg4NzEtYTBkMGJlNTBhZTIyIiwiaWF0IjoxNzE1MTEwOTY1LCJqdGkiOiI0N2M5NTY3Zi02NDljLTRjOWEtOTE1MS0xODVjMjExZDg5OTMifQ.sSH35BbyJe3FIeH8OjFy9-J48uYBAwQoCCGPI8ZQ1LnXrFAWZtWdHpm5G_KNelIalOpihl65W59fbA1_bkhznCEeJWz2DL-kQj7kJnuHc48TSqgsqpQiGTlZ3JIf-hsCavxL8sl9rQvVZe2oKPBUqs0BhY5nM6-31rt1NOnmwhHhkbWeAU1St7dwAmxMi-ZrKqlZyO2hPAQ1zFu8M44ckqk_hjQCEgrRzPID2s2mO9Pr8MJLxDEZ3bVRSHS-pYAUqZPlSUcafgX5lZPI2XtTObl7YrxeXw3S4WzxFQrNvE3YGrDvYuAcuKiAeVQAXZxnPrfE8HXlyGKNIVaYPEztbQ&source=9607060d97aac19f42cc5c59b0ec4a1d')]", "xpath:href"],
+        ["xpath=//td/div/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Definir senha')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win3429",
+      "windowTimeout": 2000
+    }, {
+      "id": "21451477-0ef5-4f03-874b-0c863f0ecb63",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win3429}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "43aba408-890a-4328-a58a-7f16cca97475",
+    "name": "Teste 25",
+    "commands": [{
+      "id": "c789fad2-b33f-4b68-b3c7-547dd9cb9d18",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.atlassian.com/login?application=trello&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3FreturnUrl%3D%26display%3D%26aaOnboarding%3D%26updateEmail%3D%26traceId%3D%26ssoVerified%3D%26createMember%3D",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b052291b-4909-41a5-bb2b-ee694162f751",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "64c07588-f641-4b52-bc74-8ea0d156a980",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "212032@facens.br"
+    }, {
+      "id": "9279b583-13f0-4c9f-84e0-6d7c32324dea",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "a89359f7-d178-4f60-8e3c-6c0ec627da42",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1spmf3f > .css-snhnyn",
+      "targets": [
+        ["css=.css-1spmf3f > .css-snhnyn", "css:finder"],
+        ["xpath=//form[@id='form-login']/div/div[2]/div/div/div/div/div/button/span/span", "xpath:idRelative"],
+        ["xpath=//button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7fbbfe3-272b-4201-8ed9-e193ae7507d3",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login']/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "771e0151-5ae4-4163-8684-7d3981495c18",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-178ag6o:nth-child(1)",
+      "targets": [
+        ["css=.css-178ag6o:nth-child(1)", "css:finder"],
+        ["xpath=//button[@id='login-submit']/span", "xpath:idRelative"],
+        ["xpath=//form/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Entrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa7271e9-fccd-4061-8f7b-752681c3e591",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login']/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Costa729"
+    }]
+  }, {
+    "id": "dff29aae-55e8-4fc4-af38-288cb9535116",
+    "name": "Teste 26",
+    "commands": [{
+      "id": "9e5ce490-de0d-48f4-a6cc-04c8b1c1d2e5",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.atlassian.com/login?application=trello&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3FreturnUrl%3D%26display%3D%26aaOnboarding%3D%26updateEmail%3D%26traceId%3D%26ssoVerified%3D%26createMember%3D",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "88fd553d-3b14-4e4a-913f-70978564cbeb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "28b20429-489a-47e0-9676-bb8160c7f03a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1y8hiba:nth-child(1)",
+      "targets": [
+        ["css=.css-1y8hiba:nth-child(1)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Política de Privacidade')])[2]", "xpath:link"],
+        ["xpath=//div[@id='WhiteboxContainer']/section/div[6]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://policies.google.com/privacy')]", "xpath:href"],
+        ["xpath=//div[6]/div/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win7323",
+      "windowTimeout": 2000
+    }, {
+      "id": "d21f14bc-b3f2-412f-9762-3caaaa958def",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win7323}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "42ff4967-13b2-4d00-8d5a-0338d03e1511",
+    "name": "Teste 27",
+    "commands": [{
+      "id": "07d21991-7688-42b6-8662-8653503f6417",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.atlassian.com/login?application=trello&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3FreturnUrl%3D%26display%3D%26aaOnboarding%3D%26updateEmail%3D%26traceId%3D%26ssoVerified%3D%26createMember%3D",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "08ee1c30-a4b3-4f9c-b683-8fd1192cc0f8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d7c0c0ac-0246-48b9-9865-4cc30f7eb263",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Termos de Serviço do Google",
+      "targets": [
+        ["linkText=Termos de Serviço do Google", "linkText"],
+        ["css=.css-1y8hiba:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Termos de Serviço do Google')]", "xpath:link"],
+        ["xpath=//div[@id='WhiteboxContainer']/section/div[6]/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://policies.google.com/terms')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Termos de Serviço do Google')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win3833",
+      "windowTimeout": 2000
+    }, {
+      "id": "348d68fe-bd4a-4899-9f32-5c443876d192",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win3833}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "01bf64b8-3de1-44cf-b1f6-fe31d57f1786",
+    "name": "Teste 28",
+    "commands": [{
+      "id": "7b7db539-8065-48b6-ab7d-03691350fb84",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.atlassian.com/login?application=trello&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3FreturnUrl%3D%26display%3D%26aaOnboarding%3D%26updateEmail%3D%26traceId%3D%26ssoVerified%3D%26createMember%3D",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "920b7914-5530-4850-93ba-ca8cc976ba3c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9860da7c-7007-474b-93e7-b66b420e998c",
+      "comment": "",
+      "command": "click",
+      "target": "id=atlassian-account-link-more-short",
+      "targets": [
+        ["id=atlassian-account-link-more-short", "id"],
+        ["linkText=mais", "linkText"],
+        ["css=#atlassian-account-link-more-short", "css:finder"],
+        ["xpath=//a[contains(text(),'mais')]", "xpath:link"],
+        ["xpath=//a[@id='atlassian-account-link-more-short']", "xpath:attributes"],
+        ["xpath=//div[@id='WhiteboxContainer']/section/div[6]/footer/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://support.atlassian.com/atlassian-account/docs/what-is-an-atlassian-account/')]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'mais')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win809",
+      "windowTimeout": 2000
+    }, {
+      "id": "62d4dadf-25c9-4d04-9be6-13e0979bab40",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win809}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "5b6ecf15-db00-4561-99f3-0b7645989076",
+    "name": "Teste 29",
+    "commands": [{
+      "id": "0fe86c05-a2fd-47bb-b9c6-d2a86df40acc",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.atlassian.com/login?application=trello&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3FreturnUrl%3D%26display%3D%26aaOnboarding%3D%26updateEmail%3D%26traceId%3D%26ssoVerified%3D%26createMember%3D",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "515f9d00-d4f8-404c-992f-1eb4c7449059",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "82df99ab-e8a2-4467-8130-4c725f827ce8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#slack-auth-button img",
+      "targets": [
+        ["css=#slack-auth-button img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://id-frontend.prod-east.frontend.public.atl-paas.net/assets/slack-logo.5d730c10.svg')]", "xpath:img"],
+        ["xpath=//button[@id='slack-auth-button']/span/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "20f7ee66-e77a-4563-a149-d67ca33bbc2c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#slack-auth-button img",
+      "targets": [
+        ["css=#slack-auth-button img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://id-frontend.prod-east.frontend.public.atl-paas.net/assets/slack-logo.5d730c10.svg')]", "xpath:img"],
+        ["xpath=//button[@id='slack-auth-button']/span/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "afc231c6-ac9e-454c-bba1-751ce664fe39",
+      "comment": "",
+      "command": "click",
+      "target": "id=resetPassword",
+      "targets": [
+        ["id=resetPassword", "id"],
+        ["linkText=Não consegue entrar?", "linkText"],
+        ["css=#resetPassword", "css:finder"],
+        ["xpath=//a[contains(text(),'Não consegue entrar?')]", "xpath:link"],
+        ["xpath=//a[@id='resetPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='WhiteboxContainer']/section/div[4]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/login/resetpassword?application=trello&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3FreturnUrl%3D%26display%3D%26aaOnboarding%3D%26updateEmail%3D%26traceId%3D%26ssoVerified%3D%26createMember%3D')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Não consegue entrar?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6212d237-0b91-4a6a-a06a-11f101851857",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-178ag6o",
+      "targets": [
+        ["css=.css-178ag6o", "css:finder"],
+        ["xpath=//button[@id='reset-password-email-submit']/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Enviar link de recuperação')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "63c376c2-ef77-4df1-83f1-4f2c3b03f0f5",
+    "name": "Teste 30",
+    "commands": [{
+      "id": "416c3647-746a-4e12-b974-bfde3a8315fb",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.atlassian.com/login?application=trello&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3FreturnUrl%3D%26display%3D%26aaOnboarding%3D%26updateEmail%3D%26traceId%3D%26ssoVerified%3D%26createMember%3D",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9381faad-cfc6-4664-9876-106ab0c6206f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d1f855d-13cb-41ce-81f5-58c4902193ee",
+      "comment": "",
+      "command": "click",
+      "target": "id=signup",
+      "targets": [
+        ["id=signup", "id"],
+        ["linkText=Criar uma conta", "linkText"],
+        ["css=#signup", "css:finder"],
+        ["xpath=//a[contains(text(),'Criar uma conta')]", "xpath:link"],
+        ["xpath=//a[@id='signup']", "xpath:attributes"],
+        ["xpath=//div[@id='WhiteboxContainer']/section/div[4]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/signup?application=trello&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3FreturnUrl%3D%26display%3D%26aaOnboarding%3D%26updateEmail%3D%26traceId%3D%26ssoVerified%3D%26createMember%3D')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Criar uma conta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca2df05b-cb75-4b5c-b1b3-ca9468749433",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=slack-auth-button",
+      "targets": [
+        ["id=slack-auth-button", "id"],
+        ["css=#slack-auth-button", "css:finder"],
+        ["xpath=//button[@id='slack-auth-button']", "xpath:attributes"],
+        ["xpath=//div[@id='WhiteboxContainer']/section/div[3]/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Slack')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aeb29bee-8781-4c21-a482-4ff1966a9988",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=slack-auth-button",
+      "targets": [
+        ["id=slack-auth-button", "id"],
+        ["css=#slack-auth-button", "css:finder"],
+        ["xpath=//button[@id='slack-auth-button']", "xpath:attributes"],
+        ["xpath=//div[@id='WhiteboxContainer']/section/div[3]/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Slack')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5bfabd12-7fc0-4869-97bb-36ad01cb8418",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-178ag6o:nth-child(1)",
+      "targets": [
+        ["css=.css-178ag6o:nth-child(1)", "css:finder"],
+        ["xpath=//button[@id='signup-submit']/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Registre-se')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "0dee5ace-b61b-4ea2-bb1b-a40df524bbce",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://id.atlassian.com/login?application=trello&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3FreturnUrl%3D%252Fb%252F6eTUJXVK%252Fcentral-de-organiza%2525C3%2525A7%2525C3%2525A3o%26display%3D%26aaOnboarding%3D%26updateEmail%3D%26traceId%3D%26ssoVerified%3D%26createMember%3D", "https://id.atlassian.com/login?application=trello&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3Fdisplay%3DeyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%253D%253D&display=eyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%3D%3D", "https://outlook.office.com/mail/", "https://id.atlassian.com/login/changepassword?display=eyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%3D%3D&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3Fdisplay%3DeyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%253D%253D&application=trello&signature=eyJraWQiOiJtaWNyb3MvYWlkLWFjY291bnQvcDYwZDlpZGFwNDIwcmtqZSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiIyMTIwMzJAZmFjZW5zLmJyIiwiYXVkIjoibGluay1zaWduYXR1cmUtdmFsaWRhdG9yIiwibmJmIjoxNzE1MTEwOTY1LCJzY29wZSI6ImNoYW5nZVBhc3N3b3JkIiwiaXNzIjoibWljcm9zL2FpZC1hY2NvdW50IiwiZXhwIjoxNzE1MTE0NTY1LCJ1c2VySWQiOiI3MTIwMjA6M2QxZTRmNjEtZDk4NC00MmJmLTg4NzEtYTBkMGJlNTBhZTIyIiwiaWF0IjoxNzE1MTEwOTY1LCJqdGkiOiI0N2M5NTY3Zi02NDljLTRjOWEtOTE1MS0xODVjMjExZDg5OTMifQ.sSH35BbyJe3FIeH8OjFy9-J48uYBAwQoCCGPI8ZQ1LnXrFAWZtWdHpm5G_KNelIalOpihl65W59fbA1_bkhznCEeJWz2DL-kQj7kJnuHc48TSqgsqpQiGTlZ3JIf-hsCavxL8sl9rQvVZe2oKPBUqs0BhY5nM6-31rt1NOnmwhHhkbWeAU1St7dwAmxMi-ZrKqlZyO2hPAQ1zFu8M44ckqk_hjQCEgrRzPID2s2mO9Pr8MJLxDEZ3bVRSHS-pYAUqZPlSUcafgX5lZPI2XtTObl7YrxeXw3S4WzxFQrNvE3YGrDvYuAcuKiAeVQAXZxnPrfE8HXlyGKNIVaYPEztbQ&source=9607060d97aac19f42cc5c59b0ec4a1d", "https://id.atlassian.com/login?application=trello&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3FreturnUrl%3D%26display%3D%26aaOnboarding%3D%26updateEmail%3D%26traceId%3D%26ssoVerified%3D%26createMember%3D"],
+  "plugins": []
+}
