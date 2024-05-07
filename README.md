@@ -76,7 +76,7 @@ O Trello é uma plataforma de gerenciamento de projetos baseada em nuvem que per
      
 
    Registro de teste
-    Insira o link do vídeo gravado para atividade;
+    https://github.com/jcandini/testetrello/blob/main/TESTE%20TRELLO.side;
 
 
 ## Autores
