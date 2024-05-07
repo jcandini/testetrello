@@ -73,6 +73,11 @@ O Trello é uma plataforma de gerenciamento de projetos baseada em nuvem que per
    - Clicar em "Mais".
    - Clicar em "Não consigo acessar a conta" e disponibilizar um e-mail inválido.
    - Clicar em "Criar conta" e fornecer um e-mail inexistente.
+     
+
+   Registro de teste
+    Insira o link do vídeo gravado para atividade;
+
 
 ## Autores
 
